@@ -216,6 +216,23 @@
   background-color: #01bfbd;
 }
 
+.select-area {
+  position: relative;
+}
+
+.select-area:after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 45%;
+  transform: rotate(45deg);
+  height: 5px;
+  width: 5px;
+  border-right: 2px solid #d9d9d9;
+  border-bottom: 2px solid #d9d9d9;
+}
+
 .course-option {
   margin-bottom: 10px;
   color: #545658;
